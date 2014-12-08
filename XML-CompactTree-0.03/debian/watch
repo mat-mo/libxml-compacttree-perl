@@ -1,0 +1,2 @@
+version=3
+http://search.cpan.org/dist/XML-CompactTree/   .*/XML-CompactTree-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

@@ -1,0 +1,4 @@
+libxml-compacttree-perl (0.03-1) unstable; urgency=low
+
+  [ matanya moses]
+  * Initial Release. Closes: #772532

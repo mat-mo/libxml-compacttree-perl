@@ -1,0 +1,29 @@
+Source: libxml-compacttree-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: matanya moses <matanya@foss.co.il>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl,
+ libxml-libxml-perl,
+ libxml-sax-perl,
+ libxml-namespacesupport-perl,
+ libxml-sax-base-perl
+Standards-Version: 3.9.6
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libxml-compacttree-perl.git
+Vcs-Browser:http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libxml-compacttree-perl.git
+Homepage: http://search.cpan.org/dist/XML-CompacTtree/
+
+Package: libxml-compacttree-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libxml-libxml-perl,
+ libxml-sax-perl,
+ libxml-namespacesupport-perl,
+ libxml-sax-base-perl
+Description: module for building a compact tree structures from XML documents
+ XML::CompactTree provides functions that use XML::LibXML::Reader to parse an XML document into
+ a parse tree formed of nested arrays (and hashes).
+ It aims to be fast in doing that and to presreve all relevant information from
+ the XML (including namespaces, document order, mixed content, etc.). It
+ sacrifices user friendliness for speed.
